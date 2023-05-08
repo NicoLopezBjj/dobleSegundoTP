@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Pathway+Extreme:wght@400;700&display=swap');
 
 
-
 body{
     background: linear-gradient(to right, white 60%,  #d6bda6 40%);
+    height: 80%;
 }
 
 header{
@@ -74,8 +74,20 @@ a{
     padding-right: 1em;
 }
 
+.notificacion{
+    border-radius: 3em;
+    background-color: white; 
+    position: absolute;
+    top:4%;
+    left: 73%;
+    font-size: small;
+    font-weight: bold;
+
+}
+
 .shop{
-    
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .sinborde{
@@ -111,17 +123,50 @@ a{
     margin-top: 8em;
     padding-right: 18em;
     margin-left:1em;
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
     color: gray;
     font-size: small;
 } 
 
-
 .imagen{
     position: absolute;
-    right: 25%;
-    top: 18%
+    right: 22%;
+    top: 15%;
 }
+
+.escala{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:45%;
+    padding-right: 2em;
+    right: 2%;
+    font-weight: bold;
+    font-size: xx-small
+}
+
+.negro{
+    border-right: 3px solid black;
+    padding-right: 1em;
+}
+
+.gris{
+    border-right: 3px solid gray;
+    padding-right: 1em;
+}
+
+/* .uno{
+    border-right: 2px solid black;
+}
+
+.dos{
+    border-right: 2px solid gray;
+}
+
+.tres{
+    border-right: 2px solid gray;
+} */
+
 
 /* body{
     margin: 0rem 7rem;
