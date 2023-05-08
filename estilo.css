@@ -11,6 +11,10 @@ header{
     justify-content: space-between
 }
 
+section{
+    position: relative;
+}
+
 a{
     color: black;
 }
@@ -66,6 +70,7 @@ a{
 
 .iconos{
     margin-right: 3em ;
+    position: relative;
 }
 
 .lupa{
@@ -78,11 +83,10 @@ a{
     border-radius: 3em;
     background-color: white; 
     position: absolute;
-    top:4%;
-    left: 73%;
+    bottom:64%;
+    left: 80%;
     font-size: small;
     font-weight: bold;
-
 }
 
 .shop{
@@ -107,9 +111,8 @@ a{
 .titulo{    
     margin-left: 2em;
     font-size: 2.5rem;
-    margin-bottom: 1em;
-    margin-top: 4em;
     font-family: 'Lato', sans-serif;
+    padding-top: 2em;
 }
 
 .comprar{
@@ -121,9 +124,6 @@ a{
 
 .texto{
     margin-top: 8em;
-    padding-right: 18em;
-    margin-left:1em;
-    /* padding-bottom: 5em; */
     color: gray;
     font-size: small;
 } 
@@ -131,7 +131,7 @@ a{
 .imagen{
     position: absolute;
     right: 22%;
-    top: 15%;
+    top: 1%;
 }
 
 .escala{
@@ -154,157 +154,3 @@ a{
     border-right: 3px solid gray;
     padding-right: 1em;
 }
-
-/* .uno{
-    border-right: 2px solid black;
-}
-
-.dos{
-    border-right: 2px solid gray;
-}
-
-.tres{
-    border-right: 2px solid gray;
-} */
-
-
-/* body{
-    margin: 0rem 7rem;
-    padding: 0;
-    background-color: black;    
-}
-
-header{
-    display: flex;
-    justify-content: space-around;
-}
-
-a{
-    color: black;
-}
-
-.blanco{
-    background-color: white;
-    width: 60%;
-    height: 100%;
-    font-size: small;
-}
-
-.izquierda{
-    display: flex;
-    margin-top: 1em;
-    /* padding-top: 2em; 
-}
- 
-.menu{
-    margin-left: 6em;
-    margin-top: 1.5em;
-    /* margin-right: 20%; */
-    /* margin-left: 4em; 
-}
-
-.logo{
-    font-size: large;
-    font-weight: 1000;
-    margin-left: 3em;
-    margin-bottom: 1em;
-    padding-left: 3em;
-    font-style: italic; */
-    
-    /* margin-bottom: 4em; */
-    /* margin-left: 3em; */
-    /* padding-bottom: 2em; 
-}
-
-.titulo{    
-    padding-left: 3em;
-    font-size: 2rem;
-    margin-bottom: 1em;
-    margin-top: 4em;
-    */
-   
-    /* margin-top: 6em;
-    padding-left: 5em;
-    font-size: 2rem; 
-}
-
-.comprar{
-    text-transform: uppercase;
-    padding: 1em 2em;
-    border: 1px solid black;
-    /* margin-top: 2em; */
-    /* color: black;
-    font-weight: 600;
-} 
-
-.color{
-    background-color: #d6bda6;
-    width: 40%;
-    height: 44em;
-}
-
-.auno{
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
-}
-
-.ados{
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
-}
-
-.atres{
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
-}
-
-.acuatro{
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
-}
-
-.derecha{
-    display: flex;
-    padding-top: 2em;
-    padding-left: 10em;
-    font-size: small;
-}
-
-.iconos{
-    margin-right: 2em;
-}
-
-.lupa{
-    width: 1em;
-    height: 1em;
-    padding-right: 1em;
-}
-
-.shop{
-    padding-left: 0,5em;
-}
-
-.botones{
-}
-
-.sinborde{
-    border: none;
-    border-left: 1px solid gray;
-    padding-left: 2em;
-    background-color:  #d6bda6;
-}
-
-.conborde{
-    border: 1px solid black;
-    background-color:   #d6bda6;
-    margin-left: 2em;
-    padding: 0.2em 1em;
-}
-
-.texto{
-    margin-top: 8em;
-    padding-right: 18em;
-    padding-left: 7em;
-    padding-bottom: 5em;
-    color: gray;
-} */
